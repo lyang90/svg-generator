@@ -49,11 +49,25 @@ function createShape(data) {
 
 // The renderSvg function returns the generated svg content with and calling the createShape class to get the shape
 function renderSvg(data) {
+    // default values for the text for a circle shape
+    let x = "150";
+    let y = "125";
+
+    //if statement used to set the text in inside the shape
+    if(data.shape === 'Triangle'){
+        y = "175";
+    }
+    if(data.shape === 'Square'){
+        x ="85";
+        y ="100";
+    }
+
+    // returning the svg file
     return `<svg version="1.1" width="300" height="200" xmlns="http://www.w3.org/2000/svg">
 
     ${createShape(data)}
   
-    <text x="150" y="${data.shape === 'Triangle' ? "175" : "125"}" font-size="60" text-anchor="middle" fill="${data.color}">${data.text}</text>
+    <text x="${x}"  y="${y}" font-size="60" text-anchor="middle" fill="${data.color}">${data.text}</text>
   
   </svg>`;
 }
