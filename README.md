@@ -23,4 +23,5 @@ To run the project itself you must have Node.js installed and open up the termin
 - Texts SVG MDN Docs https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Texts
 
 ## Tests
-- The test for this project is the same one for different classes. The test is testing if the render() method of each classes returns the correct output for the each shape class after the color has been set. The results for each test for the classes passed. 
+- The test for this project is the same one for different classes. The test is testing if the render() method of each classes returns the correct output for the each shape class after the color has been set. The results for each test for the classes passed.
+![](/images/test.png)
