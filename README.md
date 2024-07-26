@@ -11,7 +11,7 @@ To install this project, you can simply download the code from github or clone t
   
 ## Usage
 
-To run the project itself you must have Node.js installed and open up the terminal. After opening up the terminal run npm install and run the code by typing node index.js. By doing the prompts will appear and ask you to enter information regarding the logo. Then a SVG file will be generate and with that file you can open it up in the browser and look at the logo that was created. The first image is when the user is prompted to add the logo information. The second is the file already been generated and then the last is the actually SVG file open up in the browser.
+To run the project itself you must have Node.js installed and open up the terminal. After opening up the terminal run npm install and run the code by typing node index.js. By doing the prompts will appear and ask you to enter information regarding the logo. Then a SVG file will be generate and with that file you can open it up in the browser and look at the logo that was created. The first image is when the user is prompted to add the logo information. The second is the file already been generated and then the last is the actually SVG file open up in the browser. The video link is a demo of the project running. https://drive.google.com/file/d/13e5KtWiJ4LMvLlOaq84J8xjQeTjqEq31/view
 
 ![](/images/prompt.png)
 ![](/images/file.png)
